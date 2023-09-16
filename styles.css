@@ -15,7 +15,7 @@
 
 .cover-heading{
     font-family: STmono;
-    font-size:500%;
+    font-size: 40pt;
     color: #39df20;
 }
 
@@ -34,7 +34,7 @@
     top: 0;
 }
 
-.cover p{
+.cover{
     display: block;
     padding-bottom: 100px;
     min-width: auto;
