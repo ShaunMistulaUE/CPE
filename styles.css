@@ -60,7 +60,7 @@
 
 .body_Heading, .body_Text{
     min-width: auto;
-    max-width: 100px;
+    max-width: 50;
     padding-left: 50px;
     color: white;
     font-size: 50pt;
