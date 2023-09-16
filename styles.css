@@ -53,9 +53,9 @@
 }
 
 .scrollspy-example {
-    position: relative;
+    position:absolute;
     height:300px;
-    overflow: auto;
+    overflow:auto;
 }
 
 .body_Heading, .body_Text{
