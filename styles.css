@@ -25,8 +25,13 @@
     color: white;
 }
 
-.btn btn-lg btn-primary{
-    background-color: #39df20 !important;
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #b30f7c;
+    border-color: #eb8ed7;
 }
 
 .navbar navbar-expand-lg navbar-dark{
