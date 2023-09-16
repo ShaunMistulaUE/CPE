@@ -37,7 +37,7 @@
 .cover{
     display: block;
     padding-bottom: 100px;
-    width: 900px;
+    width: auto;
 }
 @font-face{
     font-family: "STMono";
