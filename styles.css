@@ -23,7 +23,7 @@
 .lead{
     font-family: STmono;
     font-size: 20px;
-    color: white;
+    color: wheat;
 }
 
 .btn-primary,
@@ -40,6 +40,10 @@
     top: 0;
 }
 
+.navbar-nav navbar{
+    font-size: 500px;
+}
+
 .cover{
     display: block;
     padding-top: 50px;
@@ -47,6 +51,20 @@
     min-width: auto;
     max-width: 900px;
 }
+
+.scrollspy-example {
+    position: relative;
+    height:300px;
+    overflow: auto;
+}
+
+.body_Heading, .body_Text{
+    min-width: auto;
+    max-width: 900px;
+    color: white;
+    font-family: STMono;
+}
+
 @font-face{
     font-family: "STMono";
     src: url('font/ShareTechMono-Regular.ttf')
