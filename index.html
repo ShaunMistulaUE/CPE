@@ -13,55 +13,14 @@
 <p id="home"></p>
 <body class="bg_Color" data-bs-spy="scroll" data-bs-target="#navtop" data-bs-offset="0" class="scrollspy-example" tabindex="0">
    
-<!-- Navbar -->
 
-    <nav id="navtop" class="navbar navbar-expand-lg navbar-dark bg_Color sticky-top" >
-        <div class="container-fluid">
-            <a href="#home" class="navbar-brand">
-                <img src="images/logoCPE.png" height="69" alt="lexlogo">
-            </a>
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                 <div class="navbar-nav navbar">
-                    <a  href="#home" class="nav-item nav-link active">Home</a>
-                 </div>
-
-                 <div class="navbar-nav navbar ms-auto">
-                    <a href="#what" class="nav-item nav-link">What is CpE</a>
-                 </div>
-
-                 <div class="navbar-nav navbar ms-auto">
-                    <a href="#special" class="nav-item nav-link">Specializations</a>
-                 </div>
-
-                 <div class="navbar-nav navbar ms-auto">
-                    <a href="#do" class="nav-item nav-link">What we do</a>
-                 </div>
-
-                 <div class="navbar-nav navbar ms-auto">
-                    <a href="#dept" class="nav-item nav-link">About the department</a>
-                 </div>
-
-                 <div class="navbar-nav navbar ms-auto">
-                    <a href="#studOrg" class="nav-item nav-link">Student Organization</a>
-                 </div>
-
-                 <div class="navbar-nav navbar ms-auto">
-                    <a href="#myModal" class="nav-item nav-link" data-bs-toggle="modal">About</a>
-                 </div>
-            </div>
-        </div>
-    </nav>
 
     
 <!-- Card -->
 <center>
     <div class="cover">
          <main role="main" class="inner cover">
-           
+            <img style="width: 100px; height: 100px; padding-bottom: 20px;" src="images/logoCPE.png" alt="">
              <h1 class="cover-heading">//Computer</h1>
              <h2 class="cover-heading">//Engineering</h2>
              <p class="lead">Develop Software and Hardare Systems that will tear down barriers, push boundaries, and unlock new possibilities. Reimagine the world with inovation.</p>
@@ -71,6 +30,49 @@
          </main>
     </div>
 </center>
+
+<!-- Navbar -->
+
+<nav id="navtop" class="navbar navbar-expand-lg navbar-dark bg_Color sticky-top" >
+    <div class="container-fluid">
+        <a href="#home" class="navbar-brand">
+            <img src="images/logoCPE.png" height="69" alt="lexlogo">
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+             <div class="navbar-nav navbar">
+                <a  href="#home" class="nav-item nav-link active">Home</a>
+             </div>
+
+             <div class="navbar-nav navbar ms-auto">
+                <a href="#what" class="nav-item nav-link">What is CpE</a>
+             </div>
+
+             <div class="navbar-nav navbar ms-auto">
+                <a href="#special" class="nav-item nav-link">Specializations</a>
+             </div>
+
+             <div class="navbar-nav navbar ms-auto">
+                <a href="#do" class="nav-item nav-link">What we do</a>
+             </div>
+
+             <div class="navbar-nav navbar ms-auto">
+                <a href="#dept" class="nav-item nav-link">About the department</a>
+             </div>
+
+             <div class="navbar-nav navbar ms-auto">
+                <a href="#studOrg" class="nav-item nav-link">Student Organization</a>
+             </div>
+
+             <div class="navbar-nav navbar ms-auto">
+                <a href="#myModal" class="nav-item nav-link" data-bs-toggle="modal">About</a>
+             </div>
+        </div>
+    </div>
+</nav>
 
 <!-- carousel -->
 <div id="myCarousel" class="carousel carousel-light slide" data-bs-ride="carousel">
@@ -107,7 +109,6 @@
     </a>
 </div>
 
-
     <!-- Modal HTML -->
 <div id="myModal" class="modal fade" tabindex="-1">
     <div class="modal-dialog">
@@ -128,8 +129,27 @@
     </div>
 </div>
 
+<div class="card text-white bg-dark" style="max-width: auto; height: 600px;">
+    <div class="card-body">
+        <h5 class="body_Heading">//What is Computer Engineering?</h5>
+        <p class="card-text">Alice is a freelance web designer and developer based in London. She is specialized in HTML5, CSS3, JavaScript, Bootstrap, etc.</p>
+        <div class="card bg-dark text-white" style="max-width: 250px; height: auto;">
+            <div class="card-body text-center">
+                <h5 class="card-title">Alice Liddel</h5>
+                <p class="card-text">Alice is a freelance web designer and developer based in London. She is specialized in HTML5, CSS3, JavaScript, Bootstrap, etc.</p>
+            </div>
+        </div>
+        <div class="card text-white bg-dark" style="max-width: 250px; height: auto;">
+            <div class="card-body text-center">
+                <h5 class="card-title">Alice Liddel</h5>
+                <p class="card-text">Alice is a freelance web designer and developer based in London. She is specialized in HTML5, CSS3, JavaScript, Bootstrap, etc.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 <p style="padding-top: 100px;" id="what"></p>
-<div style="background-image: linear-gradient(#326e32,#44f078, #176133, #416943);">
+<!-- <div style="background-image: linear-gradient(#326e32,#44f078, #176133, #416943);"> -->
      <h4 style="padding-top: 100px; color: white;"  class="body_Heading">//WHAT IS COMPUTER ENGINEERING?</h4>
     <center>
              <p class="body_Text"> 
@@ -152,8 +172,8 @@
    
     
     <p style="padding-top: 200px;" id="special"></p>
-    <div style="background-image: linear-gradient(#676b67,#eceeec, #8b8f8b, #858885);">
-        <h4 style="padding-top: 100px; color: black;"  class="body_Heading">//Specializations</h4>
+    <!-- <div style="background-image: linear-gradient(#292929,#181717, #030303, #070707);"> -->
+        <h4 style="padding-top: 100px; color: white;"  class="body_Heading">//Specializations</h4>
         <center>
 
             <p class="body_Text">

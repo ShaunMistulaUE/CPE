@@ -58,9 +58,9 @@
     overflow:auto;
 }
 
-.body_Heading, .body_Text{
+.body_Heading, .body_Text,.card-title{
     min-width: auto;
-    max-width: 50;
+    max-width: 400;
     padding-left: 50px;
     color: white;
     font-size: 30pt;
