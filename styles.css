@@ -35,10 +35,10 @@
 }
 
 .cover p{
-    word-wrap: break-word;
     display: block;
     padding-bottom: 100px;
-    width: 500px;
+    min-width: auto;
+    max-width: 900px;
 }
 @font-face{
     font-family: "STMono";
