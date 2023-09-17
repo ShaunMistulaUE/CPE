@@ -3,9 +3,62 @@
    /* background-color: #0e0c26; */
 }
 
+
 .nav-item{
     font-family: STmono;  
-    color: white;
+    color: rgb(255, 255, 255);
+    border-radius: 100px;
+    transform: translateX(0x);
+    transition: .3s all;
+}
+
+.nav-item:hover{
+    background: linear-gradient(rgb(13, 148, 54), rgb(16, 216, 9));
+    border-radius: 100px;
+    box-shadow: 1px 1px 40px 1px #3eca07;
+    color: #000000;
+    transition: .3s;
+    padding: 10px 95px;
+    transform: translateY(5px);
+}
+
+.logoSite{
+    transition: .3s;
+    transform: translateX(10px);
+}
+
+.logoSite:hover{
+    background: linear-gradient(rgb(148, 13, 92), rgb(216, 9, 154));
+    border-radius: 100px;
+    box-shadow: 1px 1px 40px 1px;
+    color: #000000;
+    transition: .3s;
+    padding: 10px 95px;
+    transform: translateX(10px);
+}
+
+
+.aboutLogo{
+    height: 100px;
+    padding-bottom: 50px;
+    transition: .3s;
+    transform: translateY(20px);
+}
+
+
+.aboutLogo:hover{
+    height: 200px;
+    padding-bottom: 100px;
+    height: 200px;
+    color: #000000;
+    transition: .3s;
+    transform: translateY(20px);
+}
+
+.btn:hover{
+    color: #000000;
+    transition: .3s;
+    transform: translateY(5px);
 }
 
 .text_Color{
@@ -16,14 +69,30 @@
 
 .cover-heading{
     font-family: STmono;
-    font-size: 30pt;
+    font-size: 50pt;
+    transition: .3s;
     color: #39df20;
+}
+
+.cover-heading:hover{
+    font-family: STmono;
+    font-size: 55pt;
+    transition: .3s;
+    color: #ffffff38;
 }
 
 .lead{
     font-family: STmono;
     font-size: 20px;
+    transition: .3s;
     color: wheat;
+}
+
+.lead:hover{
+    font-family: STmono;
+    font-size: 30px;
+    transition: 1s;
+    color: rgb(154, 51, 214);
 }
 
 .btn-primary,
@@ -60,10 +129,17 @@
 
 .card{
     margin: 1rem;
+    transition: .3s;
+}
+
+.card:hover{
+    margin: 5rem;
+    transition: .3s;
 }
 
 .card-text{
-    max-width: 500px;
+    color: #74b81c;
+    max-width: 800px;
 }
 
 .scrollspy-example {
@@ -75,7 +151,6 @@
 .body_Heading, .body_Text{
     min-width: auto;
     max-width: 400;
-    padding-left: 30px;
     color: white;
     font-size: 30pt;
     font-family: STMono;
