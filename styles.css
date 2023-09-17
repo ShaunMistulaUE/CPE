@@ -23,7 +23,7 @@
 }
 
 .logoSite{
-    transition: .3s;
+    transition: .5s;
     transform: translateX(10px);
 }
 
@@ -84,15 +84,16 @@
 .lead{
     font-family: STmono;
     font-size: 20px;
-    transition: .3s;
-    color: wheat;
+    transition: .5s;
+    color: rgb(154, 51, 214);
+    /* color: wheat; */
 }
 
 .lead:hover{
     font-family: STmono;
     font-size: 30px;
     transition: 1s;
-    color: rgb(154, 51, 214);
+    color: wheat;
 }
 
 .btn-primary,
@@ -129,12 +130,12 @@
 
 .card{
     margin: 5rem;
-    transition: .3s;
+    transition: .5s;
 }
 
 .card:hover{
     margin: 1rem;
-    transition: .3s;
+    transition: .5s;
 }
 
 .card-text{
