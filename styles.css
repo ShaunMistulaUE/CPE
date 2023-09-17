@@ -133,7 +133,7 @@
     transition: .5s;
 }
 
-.card::-webkit-scrollbar{
+.card:hover{
     margin: 1rem;
     transition: .5s;
 }
