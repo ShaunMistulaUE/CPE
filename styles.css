@@ -1,5 +1,5 @@
 .bg_Color{
-    background-image: url(images/bg.png);
+    background-image: url(images/nsiteBG.png);
    /* background-color: #0e0c26; */
 }
 
@@ -52,17 +52,33 @@
     max-width: 900px;
 }
 
+.cardsPlease{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.card{
+    margin: 1rem;
+}
+
 .scrollspy-example {
     position:absolute;
     height:300px;
     overflow:auto;
 }
 
-.body_Heading, .body_Text,.card-title{
+.body_Heading, .body_Text{
     min-width: auto;
     max-width: 400;
     padding-left: 50px;
     color: white;
+    font-size: 30pt;
+    font-family: STMono;
+}
+
+.card-title{
+    color: wheat ;
     font-size: 30pt;
     font-family: STMono;
 }
