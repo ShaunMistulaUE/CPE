@@ -62,6 +62,10 @@
     margin: 1rem;
 }
 
+.card-text{
+    max-width: 500px;
+}
+
 .scrollspy-example {
     position:absolute;
     height:300px;
@@ -71,7 +75,7 @@
 .body_Heading, .body_Text{
     min-width: auto;
     max-width: 400;
-    padding-left: 50px;
+    padding-left: 30px;
     color: white;
     font-size: 30pt;
     font-family: STMono;
@@ -87,3 +91,4 @@
     font-family: "STMono";
     src: url('font/ShareTechMono-Regular.ttf')
 }
+
