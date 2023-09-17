@@ -128,12 +128,12 @@
 }
 
 .card{
-    margin: 1rem;
+    margin: 5rem;
     transition: .3s;
 }
 
 .card:hover{
-    margin: 5rem;
+    margin: 1rem;
     transition: .3s;
 }
 
