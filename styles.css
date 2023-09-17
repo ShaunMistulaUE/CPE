@@ -69,14 +69,14 @@
 
 .cover-heading{
     font-family: STmono;
-    font-size: 50pt;
+    font-size: 40pt;
     transition: .3s;
     color: #39df20;
 }
 
 .cover-heading:hover{
     font-family: STmono;
-    font-size: 55pt;
+    font-size: 45pt;
     transition: .3s;
     color: #ffffff38;
 }
