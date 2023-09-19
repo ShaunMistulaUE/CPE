@@ -18,7 +18,7 @@
     box-shadow: 1px 1px 40px 1px #3eca07;
     color: #000000;
     transition: .3s;
-    padding: 10px 95px;
+    padding: 12px 100%;
     transform: translateY(5px);
 }
 
@@ -129,17 +129,21 @@
 }
 
 .card{
+    border-radius: 50%;
     margin: 5rem;
     transition: .5s;
 }
 
 .card:hover{
+    font-size: small;
     margin: 1rem;
     transition: .5s;
 }
 
 .card-text{
-    color: #74b81c;
+    font-family: STMono;
+    text-align: justify;
+    color: #ffffff;
     max-width: 800px;
 }
 
@@ -158,9 +162,17 @@
 }
 
 .card-title{
+    align-self: start;
     color: wheat ;
-    font-size: 30pt;
+    font-size: 25pt;
     font-family: STMono;
+}
+
+
+.cardInnerHead{
+    font-family: STMono;
+    font-size:medium;
+    color: rgb(173, 122, 26);
 }
 
 @font-face{
