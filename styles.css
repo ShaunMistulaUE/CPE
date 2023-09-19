@@ -135,6 +135,7 @@
 }
 
 .card:hover{
+    box-shadow: 1px 1px 40px 1px #c307ca;
     font-size:medium;
     margin: 1rem;
     transition: .5s;
@@ -156,7 +157,7 @@
 .body_Heading, .body_Text{
     min-width: auto;
     max-width: 400;
-    color: white;
+    color: wheat;
     font-size: 30pt;
     font-family: STMono;
 }
