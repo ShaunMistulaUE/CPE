@@ -130,7 +130,7 @@
 
 .card{
     font-size: smaller;
-    margin: 5rem;
+    margin: 1rem;
     transition: .5s;
 }
 
@@ -145,7 +145,6 @@
     font-family: STMono;
     text-align: justify;
     color: #ffffff;
-    max-width: 800px;
 }
 
 .scrollspy-example {
@@ -156,7 +155,6 @@
 
 .body_Heading, .body_Text{
     min-width: auto;
-    max-width: 400;
     color: wheat;
     font-size: 30pt;
     font-family: STMono;
