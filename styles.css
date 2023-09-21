@@ -1,5 +1,5 @@
 .bg_Color{
-     background: linear-gradient(rgb(148, 105, 13), rgb(9, 47, 216));
+     background: linear-gradient(rgb(238, 119, 49), rgb(9, 47, 216));
     /* background-image: url(images/nsiteBG.png); */
    /* background-color: #0e0c26; */
 }
@@ -61,9 +61,18 @@
     transform: translateY(20px);
 }
 
-.btn:hover{
-    color: #000000;
+.btn{
+    width: 150px;
+    background: linear-gradient(rgb(38, 13, 148), rgb(9, 106, 216));
+    border-radius: 100px;
     transition: .3s;
+    transform: translateY(5px);
+}
+
+.btn:hover{
+    background: linear-gradient(rgb(13, 15, 148), rgb(9, 175, 216));
+    box-shadow: 1px 1px 40px 1px;
+    transition: 1s;
     transform: translateY(5px);
 }
 
@@ -209,6 +218,11 @@
     height: 10%;
 }
 
+.accordion{
+    min-width: 100px;
+   width: 900px;
+}
+
 .accordion-item {
     font-family: STMono;
     --bs-accordion-btn-bg: #2b64df;
@@ -220,9 +234,29 @@
     box-shadow: none;
   }
 
+  .accordImg{
+    width: 100px;
+  }
+
 .accordion-button{
     font-weight: bold;
 }
+
+.colorY{
+   color: #fcad02;
+}
+
+.colorG{
+    color: #19c513;
+ }
+
+ .colorP{
+    color: #9e0a97;
+ }
+ 
+ 
+
+
 @font-face{
     font-family: "STMono";
     src: url('font/ShareTechMono-Regular.ttf')
