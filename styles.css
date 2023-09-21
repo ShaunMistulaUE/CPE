@@ -1,24 +1,30 @@
 .bg_Color{
-    background-image: url(images/nsiteBG.png);
+     background: linear-gradient(rgb(148, 105, 13), rgb(9, 47, 216));
+    /* background-image: url(images/nsiteBG.png); */
    /* background-color: #0e0c26; */
+}
+
+#homeID{
+    width: 200px; 
+    height: 200px; 
+    padding-bottom: 20px;
 }
 
 
 .nav-item{
-    font-family: STmono;  
-    color: rgb(255, 255, 255);
+    border-radius: 100px;
+    font-family: STmono;   
     border-radius: 100px;
     transform: translateX(0x);
     transition: .3s all;
 }
 
 .nav-item:hover{
-    background: linear-gradient(rgb(13, 148, 54), rgb(16, 216, 9));
+    background: radial-gradient(rgb(13, 71, 148), rgb(9, 92, 216));
     border-radius: 100px;
-    box-shadow: 1px 1px 40px 1px #3eca07;
+    box-shadow: 1px 1px 40px 1px #079cca;
     color: #000000;
     transition: .3s;
-    padding: 12px 100%;
     transform: translateY(5px);
 }
 
@@ -68,24 +74,31 @@
 }
 
 .cover-heading{
-    font-family: STmono;
-    font-size: 30pt;
+    font-family: STMono;
+    font-weight: bold;
+    font-size: 60pt;
     transition: .3s;
-    color: #39df20;
+    color: #ffffff;
+}
+
+.cover-heading-text{
+      font-family: STMono;
+    font-weight:bolder;
+    font-size: 80pt;
 }
 
 .cover-heading:hover{
-    font-family: STmono;
-    font-size: 35pt;
+    transform: translateZ(100px);
     transition: .3s;
-    color: #ffffff38;
+    color: #6b00c2;
 }
 
 .lead{
     font-family: STmono;
     font-size: 20px;
     transition: .5s;
-    color: rgb(154, 51, 214);
+    color: rgb(223, 236, 227);
+    font-style: italic;
     /* color: wheat; */
 }
 
@@ -105,20 +118,14 @@
     border-color: #eb8ed7;
 }
 
-.navbar navbar-expand-lg navbar-dark{
-    position: sticky;
-    top: 0;
-}
 
 .navbar-nav navbar{
     font-size: 500px;
 }
 
 .cover{
-    display: block;
     padding-top: 50px;
     padding-bottom: 100px;
-    min-width: auto;
     max-width: 900px;
 }
 
@@ -135,16 +142,31 @@
 }
 
 .card:hover{
-    box-shadow: 1px 1px 40px 1px #c307ca;
+    box-shadow: 1px 1px 40px 1px #078cca;
     font-size:medium;
     margin: 1rem;
+    transform: translateY(10px);
     transition: .5s;
 }
 
 .card-text{
     font-family: STMono;
     text-align: justify;
+    background-color: #58575762;
     color: #ffffff;
+}
+
+.whatText{
+    max-width: 900px;
+    font-size: 30px;
+    font-family: STMono;
+    font-weight: 1;
+}
+
+.whatTextDiv{
+    display: flex;
+    padding-block-start: 0%;
+    justify-content: center;
 }
 
 .scrollspy-example {
@@ -154,6 +176,7 @@
 }
 
 .body_Heading, .body_Text{
+    font-weight: bold;
     min-width: auto;
     color: wheat;
     font-size: 30pt;
@@ -163,6 +186,7 @@
 .card-title{
     align-self: start;
     color: wheat ;
+    background-color: #06a2bd;
     font-size: 25pt;
     font-family: STMono;
 }
@@ -171,12 +195,40 @@
 .cardInnerHead{
     font-family: STMono;
     font-size:medium;
+    background-color: #000000af;
     color: rgb(173, 122, 26);
 }
 
+.darken{
+    filter: brightness(20%);
+}
 
+.body_img{
+    width: 20%;
+    max-width: 28%;
+    height: 10%;
+}
+
+.accordion-item {
+    font-family: STMono;
+    --bs-accordion-btn-bg: #2b64df;
+    --bs-accordion-active-bg: mintcream;
+    --bs-accordion-active-color: #000000;
+    --bs-accordion-bg: mintcream;
+    --bs-accordion-color: #000000;
+    --bs-accordion-btn-focus-box-shadow: none;
+    box-shadow: none;
+  }
+
+.accordion-button{
+    font-weight: bold;
+}
 @font-face{
     font-family: "STMono";
     src: url('font/ShareTechMono-Regular.ttf')
 }
 
+@font-face{
+    font-family: "CooperBlk";
+    src: url(font/CooperBlack.ttf);
+}

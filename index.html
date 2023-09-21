@@ -1,11 +1,17 @@
+<!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="/images/logoCPE.png">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+      $(document).ready(function(){
+          $('[data-bs-toggle="tooltip"]').tooltip();   
+      });
+      </script>
 
      
     <title>Computer Engineering</title>
@@ -13,9 +19,39 @@
 
 <p id="home"></p>
 <body class="bg_Color" data-bs-spy="scroll" data-bs-target="#navtop" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+
+    
+<!--Cover-->
+<center>
+    <div class="cover">
+       <div>
+           <img id="homeID" src="images/logoCPE.png" alt="homeLogo">
+         </div>
+         <main role="main" class="inner cover">
+          <div class="cover-heading" data-bs-toggle="tooltip">
+            <h1 class="cover-heading-text">COMPUTER</h1>
+             <h2 class="cover-heading-text">ENGINEERING</h2>
+          </div>
+             
+             <p class="lead">Develop Software and Hardare Systems that will tear down barriers, push boundaries, and unlock new possibilities. Reimagine the world with inovation.</p>
+             <a class="btn btn-primary" href="#learnMore">Learn more</a>
+             </p>
+         </main>
+
+        
+    </div>
+</center>
+
+
+<!-- Learn more card -->
+<p id="learnMore"></p>
+<div>
+
+</div>
+
 <!-- Navbar -->
 
-<nav id="navtop" class="navbar  navbar-expand-lg  navbar-dark bg_Color fixed-top" >
+<nav id="navtop" class="navbar  navbar-expand-lg  navbar-dark sticky-top">
     <div class="container-fluid">
         <a href="#home" class="navbar-brand">
             <img class="logoSite" src="images/logoCPE.png" height="69" alt="lexlogo">
@@ -52,36 +88,13 @@
         </div>
     </div>
 </nav>   
-    
-<!--Cover-->
-<center>
-    <div class="cover">
-         <main role="main" class="inner cover">
-            <img style="width: 100px; height: 100px; padding-bottom: 20px;" src="images/logoCPE.png" alt="">
-             <h1 class="cover-heading">//COMPUTER</h1>
-             <h2 class="cover-heading">//ENGINEERING</h2>
-             <p class="lead">Develop Software and Hardare Systems that will tear down barriers, push boundaries, and unlock new possibilities. Reimagine the world with inovation.</p>
-             <a class="btn btn-primary" href="#learnMore">Learn more</a>
-             </p>
-         </main>
-    </div>
-</center>
-
-
-<!-- Learn more card -->
-<p id="learnMore"></p>
-<div>
-
-</div>
-
-
 
 <!-- carousel -->
 
-<div id="myCarousel" class="carousel carousel-light slide" data-bs-ride="carousel">
+<div id="myCarousel" class="carousel carousel-light slide " data-bs-ride="carousel">
     <!-- Carousel indicators -->
     <ol class="carousel-indicators">
-        <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active">k</li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
         <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
         <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
     </ol>
@@ -127,34 +140,158 @@
                 </center>
                 <p>One-Page Web Page (About BS Computer Engineering)</p>
                 <p>Software Design Preliminary Exam</p>
+                <a href="https://www.flaticon.com/free-icons/settings" title="settings icons">Settings icons created by Freepik - Flaticon</a>
                 <p class="text-secondary"><small>Developed by Shaun Mistula @2023.</small></p>
             </div>
         </div>
     </div>
 </div>
-
-
-
+ 
 <!--  background-image: radial-gradient(#a0530b,#db8d16, #c0870c, #b47a05); -->
-<div   style="padding-bottom: 100px;"> 
+<div   style="padding-bottom: 100px; "> 
     <p style="padding-top: 50px;" id="what"></p>
 
     <center>
-         <h4 style="padding-top: 100px; color: wheat;"  class="body_Heading">//WHAT IS COMPUTER ENGINEERING?</h4>
+         <h4 style="padding-top: 50px; padding-bottom: 50px; color: wheat; background-color: rgb(0, 0, 0);"  class="body_Heading">What is Computer Engineering?</h4>
     </center>
      <p class="body_Text"> 
 
-
-<div class="cardsPlease">         
-    <div class="card h-100 text-white bg-dark ">
+      <div class="whatTextDiv" style="padding-top: 120px;">
+        <p class="whatText">
+          It is a four-year engineering program that embodies science and technology of design, development, implementation, maintenance, and integration of software and hardawre components in modern computing systems and computer controlled equipment.
+        </p>
+        <img class="body_img" src="images/settings.png" alt="gear">
+      </div>
+    <div class="cardsPlease container-fluid">         
+     <div style="width: 950px;  background-image: url(images/technicalSkill.jpg);"  class="card h-100 text-white bg-dark">
         <div class="card-body">
             <div class="card-body">
-                <h5 class="card-title">Objectives</h5>
+                <h5  class="card-title">Objectives</h5>
+                <div class="accordion accordion-flush" id="accordObjective">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Hardware Design and Development
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordObjective">
+                        <div class="accordion-body">
+                          <div class="accordion accordion-flush" id="accordObjective">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                  Hardware Design and Development
+                                </button>
+                              </h2>
+                              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordObjective">
+                                <div class="accordion-body">Design and develop computer hardware components and systems, such as CPUs, memory modules, and circuit boards.</div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                  Software Development
+                                </button>
+                              </h2>
+                              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordObjective">
+                                <div class="accordion-body">Create and maintain software applications, operating systems, and firmware for various computing devices and platforms.</div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                  Embedded Systems Development
+                                </button>
+                              </h2>
+                              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordObjective">
+                                <div class="accordion-body">Design and program embedded systems used in devices like smartphones, IoT devices, and automotive systems.</div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                    System Integration
+                                  </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordObjective">
+                                  <div class="accordion-body">Integrate various hardware and software components to create complete, functioning systems..</div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                    Networking and Communication
+                                  </button>
+                                </h2>
+                                <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordObjective">
+                                  <div class="accordion-body">Develop and manage computer networks, including protocols, routers, switches, and communication systems.</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          Software Development
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordObjective">
+                        <div class="accordion-body">Create and maintain software applications, operating systems, and firmware for various computing devices and platforms.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          Embedded Systems Development
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordObjective">
+                        <div class="accordion-body">Design and program embedded systems used in devices like smartphones, IoT devices, and automotive systems.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                            System Integration
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordObjective">
+                          <div class="accordion-body">Integrate various hardware and software components to create complete, functioning systems..</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                            Networking and Communication
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordObjective">
+                          <div class="accordion-body">Develop and manage computer networks, including protocols, routers, switches, and communication systems.</div>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+   
+  </p>
+</div>
+
+<div   style="padding-bottom: 100px;"> 
+
+    <div class="cardsPlease container-fluid">         
+     <div style="width: 900px; background-image: url(images/significance.jpg);"  class="card h-100 text-white bg-dark ">
+        <div class="card-body">
+            <div class="card-body">
+                <h5 class="card-title">Significance</h5>
                 <h1 class="cardInnerHead">Develop Technical Skills </h1>
                 <p class="card-text">Computer engineering students typically seek to develop a strong foundation in technical skills related to computer hardware and software. This includes understanding computer architecture, programming languages, digital circuits, and more.</p>
 
                 <h1 class="cardInnerHead">Problem Solving</h1>
-                <p class="card-text"> Computer engineering is all about solving complex problems related to computers and technology. Students aim to improve their problem-solving abilities by working on a variety of projects and assignments.</p>
+                <p class="card-text"> Computer engineering is all about solving complex problems related toc computers and technology. Students aim to improve their problem-solving abilities by working on a variety of projects and assignments.</p>
 
                 <h1 class="cardInnerHead">Programming Proficiency</h1>
                 <p class="card-text"> Programming is a fundamental skill for computer engineering students. They strive to become proficient in various programming languages to write efficient and effective code for software applications and hardware systems.</p>
@@ -162,76 +299,19 @@
         </div>
     </div>
 
-    <div class="card h-100 text-white bg-dark ">
-    <div class="card-body">
-        <div class="card-body">
-            <h5 class="card-title">Scope</h5>
-            <h1 class="cardInnerHead">Develop Technical Skills </h1>
-            <p class="card-text">Computer engineering students typically seek to develop a strong foundation in technical skills related to computer hardware and software. This includes understanding computer architecture, programming languages, digital circuits, and more.</p>
-
-            <h1 class="cardInnerHead">Problem Solving</h1>
-            <p class="card-text"> Computer engineering is all about solving complex problems related to computers and technology. Students aim to improve their problem-solving abilities by working on a variety of projects and assignments.</p>
-
-            <h1 class="cardInnerHead">Programming Proficiency</h1>
-            <p class="card-text"> Programming is a fundamental skill for computer engineering students. They strive to become proficient in various programming languages to write efficient and effective code for software applications and hardware systems.</p>
-        </div>
-    </div>
-</div>               
+  
+    
+    
+    
   </p>
 </div>
 
 
+
    
-    
-    <p style="padding-top: 200px;" id="special"></p>
-    <!-- <div style="background-image: linear-gradient(#292929,#181717, #030303, #070707);"> -->
-        <h4 style="padding-top: 100px; color: white;"  class="body_Heading">//Specialz</h4>
 
-        <p class="body_Text"> 
- 
-            <div class="cardsPlease">
-                <div class="card text-white bg-dark">
-                     <div class="card-body">
-                        <h5 class="card-title">Objectives</h5>
-                        <h1 class="cardInnerHead">Develope Technical Skills </h1>
-                        <p class="card-text">Computer engineering students typically seek to develop a strong foundation in technical skills related to computer hardware and software. This includes understanding computer architecture, programming languages, digital circuits, and more.</p>
-
-                        <h1 class="cardInnerHead">Problem Solving</h1>
-                        <p class="card-text"> Computer engineering is all about solving complex problems related to computers and technology. Students aim to improve their problem-solving abilities by working on a variety of projects and assignments.</p>
-                      </div>
-                 </div>
-            </div>
-
-            <div class="cardsPlease">
-                <div class="card text-white bg-dark">
-                     <div class="card-body">
-                         <h5 class="card-title">Objectives</h5>
-                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non culpa officiis deserunt perferendis mollitia perspiciatis est quaerat eligendi ipsa ipsum unde totam dolorem aut voluptas aperiam asperiores animi dolorum, sit consectetur obcaecati eum. Ex, repellendus reiciendis suscipit quod tempora perspiciatis, nesciunt ab obcaecati quam nisi architecto. Quod dicta provident sapiente!</p>
-                      </div>
-                 </div>
-            </div>
-                    
-           
-    </p>
-         
-    </div>
-    
-    <h4 id="do">Fourth heading</h4>
-    <p>
-       
-    </p>
-    <h4 id="dept">Fifth heading</h4>
-    <p>
-       
-    </p>
-    <h4 id="studOrg">Fifth heading</h4>
-    <p>
-      
-    </p>
-
-
-<!-- Scripts -->
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     </body>
 </html>
