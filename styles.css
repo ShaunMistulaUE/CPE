@@ -64,7 +64,8 @@
 
 .btn{
     padding-top: 50px;
-    width: 150px;
+    width: 350px;
+    height: 50px;
     background: linear-gradient(rgb(69, 30, 241), rgb(86, 39, 255));
     border-radius: 100px;
     transition: .3s;
@@ -95,7 +96,7 @@
 .cover-heading-text{
       font-family: CooperBlk;
     font-weight:bolder;
-    font-size: 80pt;
+    font-size: 120%;
 }
 
 
@@ -150,16 +151,15 @@
     max-width: 600px;
     font-size: medium;
     margin: 1rem;
-    transition: .5s;
+    transition: .6s;
 }
 
 .card:hover{
-    box-shadow: 1px 1px 40px 1px #078cca;
-
+    box-shadow: 1px 1px 40px 1px #ffab73;
     font-size:larger;
     margin: 1rem;
     transform: translateY(10px);
-    transition: .5s;
+    transition: .6s;
 }
 
 .card-text{
@@ -170,7 +170,7 @@
 
 .whatText{
     max-width: 900px;
-    font-size: 30px;
+    font-size: 40px;
     font-family: STMono;
     font-weight: 1;
 }
@@ -234,6 +234,7 @@
 
 .accordion-item {
     font-family: STMono;
+    font-size: large;
     --bs-accordion-btn-bg: #477cf0;
     --bs-accordion-active-bg: rgb(84, 207, 216);
     --bs-accordion-active-color: #000000;
@@ -245,6 +246,7 @@
 
   .accordImg{
     width: 100px;
+    height: 100px;
   }
 
 .accordion-button{
@@ -266,10 +268,10 @@
  .colorB{
     color: #2adee4;
  }
- 
- 
- 
 
+ .colorPK{
+    color: #f56ee3;
+ }
 
 @font-face{
     font-family: "STMono";
