@@ -1,5 +1,5 @@
 .bg_Color{
-     background: linear-gradient(#3c1280,rgb(243, 111, 23), rgb(9, 47, 216));
+     background: linear-gradient(#3c1280,rgb(195, 83, 8), rgb(9, 47, 216));
     /* background-image: url(images/nsiteBG.png); */
    /* background-color: #0e0c26; */
 }
@@ -163,7 +163,6 @@
 .card-text{
     font-family: STMono;
     text-align: justify;
-    background-color: #58575762;
     color: #ffffff;
 }
 
