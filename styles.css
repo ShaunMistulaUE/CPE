@@ -1,12 +1,13 @@
 .bg_Color{
-     background: linear-gradient(rgb(238, 119, 49), rgb(9, 47, 216));
+     background: linear-gradient(#3c1280,rgb(243, 111, 23), rgb(9, 47, 216));
     /* background-image: url(images/nsiteBG.png); */
    /* background-color: #0e0c26; */
 }
 
 #homeID{
-    width: 200px; 
-    height: 200px; 
+    padding-top: 20px;
+    width: 230px; 
+    height: 230px; 
     padding-bottom: 20px;
 }
 
@@ -20,9 +21,9 @@
 }
 
 .nav-item:hover{
-    background: radial-gradient(rgb(13, 71, 148), rgb(9, 92, 216));
+    background: linear-gradient(rgb(4, 84, 189), rgb(11, 96, 223));
     border-radius: 100px;
-    box-shadow: 1px 1px 40px 1px #079cca;
+    box-shadow: 1px 1px 40px 1px #217dc9;
     color: #000000;
     transition: .3s;
     transform: translateY(5px);
@@ -62,15 +63,16 @@
 }
 
 .btn{
+    padding-top: 50px;
     width: 150px;
-    background: linear-gradient(rgb(38, 13, 148), rgb(9, 106, 216));
+    background: linear-gradient(rgb(69, 30, 241), rgb(86, 39, 255));
     border-radius: 100px;
     transition: .3s;
     transform: translateY(5px);
 }
 
 .btn:hover{
-    background: linear-gradient(rgb(13, 15, 148), rgb(9, 175, 216));
+    background: linear-gradient(rgb(87, 68, 255), rgb(9, 30, 216));
     box-shadow: 1px 1px 40px 1px;
     transition: 1s;
     transform: translateY(5px);
@@ -91,20 +93,16 @@
 }
 
 .cover-heading-text{
-      font-family: STMono;
+      font-family: CooperBlk;
     font-weight:bolder;
     font-size: 80pt;
 }
 
-.cover-heading:hover{
-    transform: translateZ(100px);
-    transition: .3s;
-    color: #6b00c2;
-}
 
 .lead{
+    padding-top: 50px;
     font-family: STmono;
-    font-size: 20px;
+    font-size: 30px;
     transition: .5s;
     color: rgb(223, 236, 227);
     font-style: italic;
@@ -113,7 +111,7 @@
 
 .lead:hover{
     font-family: STmono;
-    font-size: 30px;
+    font-size: 25px;
     transition: 1s;
     color: wheat;
 }
@@ -135,7 +133,8 @@
 .cover{
     padding-top: 50px;
     padding-bottom: 100px;
-    max-width: 900px;
+    width: 1100px;
+    display: inline-block;
 }
 
 .cardsPlease{
@@ -145,6 +144,9 @@
 }
 
 .card{
+    box-shadow: 1px 1px 40px 1px #000000;
+    font-family: STMono;
+    max-width: 600px;
     font-size: smaller;
     margin: 1rem;
     transition: .5s;
@@ -223,12 +225,18 @@
    width: 900px;
 }
 
+.accordion-long{
+    min-width: 100px;
+    width: 9000px;
+}
+
+
 .accordion-item {
     font-family: STMono;
-    --bs-accordion-btn-bg: #2b64df;
-    --bs-accordion-active-bg: mintcream;
+    --bs-accordion-btn-bg: #477cf0;
+    --bs-accordion-active-bg: rgb(84, 207, 216);
     --bs-accordion-active-color: #000000;
-    --bs-accordion-bg: mintcream;
+    --bs-accordion-bg: rgb(208, 245, 226);
     --bs-accordion-color: #000000;
     --bs-accordion-btn-focus-box-shadow: none;
     box-shadow: none;
@@ -253,6 +261,11 @@
  .colorP{
     color: #9e0a97;
  }
+
+ .colorB{
+    color: #2adee4;
+ }
+ 
  
  
 
