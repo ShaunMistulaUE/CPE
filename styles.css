@@ -145,16 +145,18 @@
 
 .card{
     box-shadow: 1px 1px 40px 1px #000000;
+    height: 20px;
     font-family: STMono;
     max-width: 600px;
-    font-size: smaller;
+    font-size: medium;
     margin: 1rem;
     transition: .5s;
 }
 
 .card:hover{
     box-shadow: 1px 1px 40px 1px #078cca;
-    font-size:medium;
+
+    font-size:larger;
     margin: 1rem;
     transform: translateY(10px);
     transition: .5s;
